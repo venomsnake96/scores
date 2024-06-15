@@ -5,7 +5,6 @@
 // let scoreKoalas = calcAverage(65, 54, 49);
 // console.log(scoreDolphins, scoreKoalas)
 
-
 // const checkWinner  = function (avgDolphins, avgKoalas){
 //     if (avgDolphins >= 2* avgKoalas){
 //         console.log(`Dolphins win (${avgDolphins} vs. ${avgKoalas})`);
@@ -58,20 +57,20 @@
 //     console.log('May be the next time')
 // }
 
-const calcTip = function (bill){
-    return bill >= 50 && bill <= 300 ? bill * 0.15 : bill *0.2;
-}
+// const calcTip = function (bill) {
+//   return bill >= 50 && bill <= 300 ? bill * 0.15 : bill * 0.2;
+// };
 
-const bills = [125, 555, 44];
-const tips = [calcTip(bills[0]), calcTip(bills[1]), calcTip(bills[2])];
-const totals = [bills[0]+tips[0], bills[1]+tips[1], bills[2]+tips[2]];
+// const bills = [125, 555, 44];
+// const tips = [calcTip(bills[0]), calcTip(bills[1]), calcTip(bills[2])];
+// const totals = [bills[0] + tips[0], bills[1] + tips[1], bills[2] + tips[2]];
 
-console.log(bills, tips, totals)
+// console.log(bills, tips, totals);
 
 // 'use strict';
 
-// // let hasDriversLicense = false 
-// // const passTest = true 
+// // let hasDriversLicense = false
+// // const passTest = true
 
 // // if (passTest) hasDriversLicense = true
 // // if (hasDriversLicense) console.log('i can drive')
@@ -80,9 +79,7 @@ console.log(bills, tips, totals)
 //         console.log('My name is gabriel');
 //     }
 
-
 // logger();
-
 
 // function fuitProcessor(apples, oranges){
 //     console.log(apples, oranges);
@@ -92,7 +89,7 @@ console.log(bills, tips, totals)
 
 // function carriotCream(carrots, heavycream, salt){
 //     console.log(carrots, heavycream, salt);
-//     const realSoup = `for the soup you need ${carrots} carriots, ${heavycream} cups of heavycream 
+//     const realSoup = `for the soup you need ${carrots} carriots, ${heavycream} cups of heavycream
 //     and ${salt} tea spound of salt.`;
 //     return realSoup
 // }
@@ -100,21 +97,17 @@ console.log(bills, tips, totals)
 // const appleJuice = fuitProcessor(5, 0);
 // console.log(appleJuice);
 
-
 // const appleOrangeJuice = fuitProcessor(2, 4)
 // console.log(appleOrangeJuice)
 
 // const soupBest = carriotCream (8, 2, 1)
 // console.log(soupBest)
 
-
 // function calcAge1(birthYear){
 //     return 2024 - birthYear;
 // }
 
 // const age1 = calcAge1(1996 );
-
-
 
 // const calcAge2 = function (birthYear) {
 //     return 2024 - birthYear;
@@ -123,7 +116,6 @@ console.log(bills, tips, totals)
 // const age2 = calcAge2(1996);
 
 // console.log(age1, age2);
-    
 
 // function calcAge1(birthYear){
 // return 2024 - birthYear;
@@ -132,7 +124,6 @@ console.log(bills, tips, totals)
 // const calcAge3 = birthYear => 2024 - birthYear
 // const age3 = calcAge3(1996)
 // console.log(age3)
-
 
 // const calcAge = function (birthYear){
 //     return 2024 - birthYear
@@ -154,14 +145,13 @@ console.log(bills, tips, totals)
 // }
 
 // console.log(yaearsUntilRetirement(1996, 'Gabriel'));
-// console.log(yaearsUntilRetirement(1950, 'frank')) ; 
+// console.log(yaearsUntilRetirement(1950, 'frank')) ;
 
 // function cutFruitPieces(fruit) {
 //     return fruit * 4;
 // }
 
-
-// function fuitProcessor(apples, oranges){ 
+// function fuitProcessor(apples, oranges){
 //     const applePieces = cutFruitPieces(apples);
 //     const orangeSlices = cutFruitPieces(oranges);
 //         const juice = `Juice with ${applePieces} pieces of apples and ${orangeSlices} oranges slices.`;
@@ -170,16 +160,8 @@ console.log(bills, tips, totals)
 
 //     console.log(fuitProcessor(2, 3))
 
-
-
-
 // const friends = ['Juan', 'Geronimo', 'Ruben']
 // console.log(friends);
-
-
-
-
-
 
 // console.log(friends. length);
 // console.log(friends[friends.length - 1]);
@@ -198,36 +180,122 @@ console.log(bills, tips, totals)
 // console.log(gabriel);
 // console.log(gabriel.length);
 
+// console.log(userInfo);
+// console.log(userInfo.lastName)
+// console.log(userInfo['job'])
 
-const userInfo = {
-    firstName: 'Erika',
-    lastName: 'Hermamdez',
-    age: 2024 - 2000,
-    job: 'Frontend Devolopert',
-    skills: ['JavaScript', 'HTML', 'CSS']
-    };
+// const nameKey = 'Name';
+// console.log(userInfo['first' + nameKey], userInfo['last' + nameKey])
+
+// const profileView  = prompt('what to you want to know abotu the user? Choose between firstName, lastName, age, job and skills ')
+//      userInfo.location = 'Mexico City';
+//      userInfo['instagram'] = '@Eriksss';
+//      console.log(userInfo)
+
+//     if(userInfo[profileView]){
+//         console.log(userInfo[profileView]);
+
+//     }else{
+//         console.log('Wrong, try again bastard')
+//         window.alert('Are you an asshole?')
+//     }
+
+//     console.log(`${userInfo.firstName} its a ${userInfo.job}, to make his job, she needs to have ${userInfo.skills.length} skills: ${userInfo.skills[0]}, ${userInfo.skills[1]} and ${userInfo.skills[2]}
+//         on his ${userInfo.age}'s, she a very good developer`)
+
+// const userInfo = {
+//   firstName: "Erika",
+//   lastName: "Hermamdez",
+//   birthYear: 2000,
+//   job: "Frontend Devolopert",
+//   skills: ["JavaScript", "HTML", "CSS"],
+//   hasAgeEnogth: true,
+
+// //   calcAge: function(birthYear){
+// //     return 2024 - birthYear
+// //   },
+
+// calcAge: function(){
+//     console.log(this)
+//     return 2024 - this.birthYear
+//   },
+// }
+// console.log(userInfo)
+// console.log(userInfo.calcAge())
+
+// const mark = {
+//     fullName: 'Mark Miller',
+//     mass: 78,
+//     height: 1.69,
+//     calcBMI: function () {
+//       this.bmi = this.mass / (this.height * this.height);
+//       return this.bmi;
+//     }
+//   };
+
+// const john = {
+//     fullName: 'John Smith',
+//     mass: 92,
+//     height: 1.95,
+//     calcBMI: function () {
+//       this.bmi = this.mass / (this.height * this.height);
+//       return this.bmi;
+//     }
+//   };
+
+//   mark.calcBMI();
+//   john.calcBMI();
+
+//   if (mark.bmi > john.bmi) {
+//     console.log(`${mark.fullName}'s BMI (${mark.bmi}) is higher than ${john.fullName}'s (${john.bmi})!`)
+//   } else if (john.bmi > mark.bmi) {
+//     console.log(`${john.fullName}'s BMI (${john.bmi}) is higher than ${mark.fullName}'s (${mark.bmi})!`)
+//   }
+
+// for(let rep = 1; rep <= 10; rep++){
+//     console.log(`lifting weights repetition ${rep}`);
+// }
+
+// const userInfo = [
+//      "Erika",
+//    "Hermamdez",
+//   2024 - 2000,
+//    "Frontend Devolopert",
+//    ["JavaScript", "HTML", "CSS"],
+//    true,
+// ]
+
+// for(let i = userInfo.length - 1; i >= 0; i--){
+//     console.log(i, userInfo[i])
+// }
+
+// for (let exercise = 1; exercise < 4; exercise++){
+//     console.log(`Starting exercise ${exercise}`);
+
+//
+// }
+
+// console.log('---only break')
+// for (let i = 0; i < userInfo.length; i++){
+//     if(typeof userInfo[i] === 'number') break;
+//     console.log(userInfo[i], typeof userInfo[i])
+// }
+
+// const years = [1996, 1998, 2002, 2010 ]
+// const ages = []
+
+// for (let i = 0; i < years.length; i++ ){
+//    ages.push( 2024 - years[i])
+// }
+
+// console.log(ages)
+
+for (let rep = 1; rep <= 10; rep++) {
+}
+
+let rep = 1;
+while(rep <= 10){
+    console.log(`lifting weigth repetition ${rep}`);
+    rep++;
     
-    console.log(userInfo);
-    console.log(userInfo.lastName)
-    console.log(userInfo['job'])
-    
-    const nameKey = 'Name';
-    console.log(userInfo['first' + nameKey], userInfo['last' + nameKey])
-    
-    
-    const profileView  = prompt('what to you want to know abotu the user? Choose between firstName, lastName, age, job and skills ')
-     userInfo.location = 'Mexico City';
-     userInfo['instagram'] = '@Eriksss';
-     console.log(userInfo)
-    
-    
-    if(userInfo[profileView]){
-        console.log(userInfo[profileView]);
-        
-    }else{
-        console.log('Wrong, try again bastard')
-        window.alert('Are you an asshole?')
-    }
-    
-    console.log(`${userInfo.firstName} its a ${userInfo.job}, to make his job, she needs to have ${userInfo.skills.length} skills: ${userInfo.skills[0]}, ${userInfo.skills[1]} and ${userInfo.skills[2]} 
-        on his ${userInfo.age}'s, she a very good developer`)
+}
